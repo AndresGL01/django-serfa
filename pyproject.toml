@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "django-serfa"
+version = "0.1.0"
+description = ""
+authors = ["Andrés Garrido <andreslp0001@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.1.1"
+testcontainers = "^4.8.1"
+schema = "^0.7.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
